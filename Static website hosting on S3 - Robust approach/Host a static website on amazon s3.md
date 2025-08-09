@@ -23,7 +23,7 @@ This project also incorporates Amazon CloudFront as a content delivery network (
 
 At the end of this project, we will have a static website that is highly scalable, fast and secure.
 
-## AWS Services Used in This Project
+## AWS services used in this project
 Simple storage service (S3) – For storing and hosting our web contents.
 
 CloudFront – A content delivery network (CDN) by Amazon Web Services (AWS)
