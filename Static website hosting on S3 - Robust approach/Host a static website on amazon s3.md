@@ -1,3 +1,5 @@
+[001]: img/create%20bucket-1.png "Title"
+
 # Host a static website on amazon s3 and configure dns with cloudfront
 
 ## About this project;
@@ -32,6 +34,8 @@ S3 bucket names are globally unique1 because all amazon s3 bucket names share a 
 3.	For object ownership, we will leave it as ACLs disabled.
 
 ![Create bucket][001]
+
+![Create bucket](img/create%20bucket-1.png "Create bucket")
 
 Access control lists or Acls are an aws legacy way of controlling ownership of objects written to our bucket. For the security of our web content, we will leave that as disable. Aws recommends this too.
 4.	For ‘public access settings for this bucket’, I checked the ‘block all public access’ button.
@@ -111,4 +115,3 @@ This project can be extended by incorporating a customized domain name from Amaz
 
 
 
-[001]: /img/create%20bucket-1.png "Title"
