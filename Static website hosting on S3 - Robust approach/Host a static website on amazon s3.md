@@ -30,6 +30,9 @@ I picked the northern California region to provision my s3 bucket because it is 
 2.	Enter a unique bucket name in the field provided for ‘bucket name’
 S3 bucket names are globally unique1 because all amazon s3 bucket names share a single, global namespace across all aws accounts and regions. Our bucket names must be as unique as possible
 3.	For object ownership, we will leave it as ACLs disabled.
+
+![Create bucket][001]
+
 Access control lists or Acls are an aws legacy way of controlling ownership of objects written to our bucket. For the security of our web content, we will leave that as disable. Aws recommends this too.
 4.	For ‘public access settings for this bucket’, I checked the ‘block all public access’ button.
 Ordinarily, to make our website contents accessible throught the internet, we would be required to not check this box, but we want to create a highly secure website. So, I’m going to leave this box checked and later grant access to only cloudfront using something called bucket policies.
@@ -104,3 +107,8 @@ We can check our s3 bucket website endpoint to see if it is publicly accessible 
 We have successfully hosted our static website on S3 and configured our website contents to be served strictly through cloudfront as a cdn. WE now have have a fast,  highly scalable, robust, secure and high performance website.
 This project can be extended by incorporating a customized domain name from Amazon route 53 and request a public SSL certificate from Amazon certificate manager. We can also setup a ci/cd pipeline through github actions to automate code deployments straight from github.
 
+
+
+
+
+[001]: /img/create%20bucket-1.png "Title"
