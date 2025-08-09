@@ -31,9 +31,9 @@ At the end of this project, we will have a static website that is highly scalabl
 ### Overview of Steps
 1.	[Write and prepare our website files](#write-and-prepare-our-website-files)
 2.	[Create an S3 bucket](#create-an-s3-bucket)
-3.	[Upload website files](#upload-website-files-to-our-s3)
+3.	[Upload website files](#upload-website-files-to-s3)
 4.	[Configure static web hosting](#configure-static-web-hosting)
-5.	[Create CloudFront distribustion](#create-cloudfront-distribution)
+5.	[Create CloudFront distribustion](#create-a-cloudfront-distribution)
 6.	[Testing](#testing)
 7. [Conclusion](#conclusion)
 
