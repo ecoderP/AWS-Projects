@@ -247,6 +247,21 @@ These commands will output the network association IDs for our two public subnet
 
 ```
 
+### Launch EC2 instances
+Explain Amazon Ec2
+Explain requirements (parameters e.g AMI, key-pair, instance type etc.) for launching an instance.
+
+```
+    aws ec2 describe-images --owners amazon
+
+    >aws ec2 run-instances --image-id ami-00e5ae8e73b80a91e --instance-type t3.micro --security-group-ids sg-0e93747e9db244c60 --subnet-id subnet-0f1065aa8bf3e6a78 --associate-public-ip-address
+
+    aws ec2 run-instances --image-id ami-00e5ae8e73b80a91e --instance-type t3.micro --security-group-ids sg-0e93747e9db244c60 --subnet-id subnet-035d189ff5e6826b8 --associate-public-ip-address
+
+```
+
+
+
 ## Security Considerations
 
 
