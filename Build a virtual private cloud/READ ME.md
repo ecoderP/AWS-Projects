@@ -48,6 +48,10 @@ All CLI commands used in this project can be found in the codes section of this 
 
 ## Architecture Diagrams
 
+[100]: img/static%20web%20hosting-2.png "Project architecture diagram"
+
+![Project architecture diagram][100]
+
 
 ## AWS Services Used
 In building this project, I used the following AWS services:
