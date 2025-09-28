@@ -28,7 +28,7 @@
 [027]: img/static%20web%20hosting-2.png "Title"
 [028]: img/static%20web%20hosting-2.png "Title"
 [029]: img/static%20web%20hosting-2.png "Title"
-
+[100]: img/static%20web%20hosting-2.png "Project architecture diagram"
 
 
 
@@ -48,7 +48,7 @@ All CLI commands used in this project can be found in the codes section of this 
 
 ## Architecture Diagrams
 
-[100]: img/static%20web%20hosting-2.png "Project architecture diagram"
+
 
 ![Project architecture diagram][100]
 
