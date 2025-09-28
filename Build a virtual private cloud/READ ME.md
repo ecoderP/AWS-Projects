@@ -50,7 +50,7 @@ All CLI commands used in this project can be found in the codes section of this 
 
 
 
-![Project architecture diagram][28]
+![Project architecture diagram][100]
 
 
 ## AWS Services Used
